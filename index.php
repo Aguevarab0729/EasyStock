@@ -19,12 +19,11 @@
                     include "./vistas/logout.php";
                     exit();
                 }
+                
+                require_once "./controller/ctrlBlankPage.php";
 
-                include "./inc/navbar.php";
-
-                include "./vistas/".$_GET['vista'].".php";
-
-                include "./inc/script.php";
+                $blankPage = new ControladorPlantilla();
+                $blankPage -> pageBlank();
 
             }else{
                 if($_GET['vista']=="login"){

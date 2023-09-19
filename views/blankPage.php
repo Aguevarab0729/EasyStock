@@ -19,7 +19,13 @@
     ?>
 
     <div class="content-wrapper">
+      <?php
+        /* include "./inc/navbar.php"; */
 
+        include "./vistas/".$_GET['vista'].".php";
+
+        include "./inc/script.php";
+        ?>
     </div>
     <aside class="control-sidebar control-sidebar-dark">
     </aside>

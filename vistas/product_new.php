@@ -1,9 +1,23 @@
-<div class="container is-fluid mb-6">
-	<h1 class="title">Productos</h1>
-	<h2 class="subtitle">Nuevo producto</h2>
-</div>
+<section class="content-header">
+	<div class="container-fluid">
+		<div class="row mb-2">
+			<div class="col-sm-6">
+				<h1>Crear nuevo Usuario</h1>
+			</div>
+			<div class="col-sm-6">
+				<ol class="breadcrumb float-sm-right">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item active">Administración de Usuarios</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
 
-<div class="container pb-6 pt-6">
+<section class="content">
+	<div class="card">
+		<div class="card-body">
+		<div class="container pb-6 pt-6">
 	<?php
 		require_once "./php/main.php";
 	?>
@@ -77,3 +91,6 @@
 		</p>
 	</form>
 </div>
+		</div>
+	</div>
+</section>

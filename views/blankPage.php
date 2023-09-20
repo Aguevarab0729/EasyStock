@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./views/src/dist/css/adminlte.min.css">
   <link rel="stylesheet" href="./views/src/plugins/sweetalert2/">
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini layout-fixed">
   <div class="wrapper">
     <?php
       include __DIR__ . "/shared/header.php";
